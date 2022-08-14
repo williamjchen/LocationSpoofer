@@ -1,8 +1,14 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "Spoofy",
+    "description": "Spoof your browswer geolocation.",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "images/On_16.png",
+        "32": "images/On_32.png",
+        "48": "images/On_48.png",
+        "128": "images/On_128.png"
+    },
     "background": {
         "service_worker": "background.js"
     },
