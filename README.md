@@ -1,1 +1,1 @@
-# Location Spoof
+# Spoofy - Spoof your browser geolocation
