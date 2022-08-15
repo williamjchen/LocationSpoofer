@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="popup.css">
     <script src="assests/all.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <button class="rotate" id="toggleBtn"><i class="fa-solid fa-power-off" id="toggleSwitch"></i></button>
+    <h2>Spoofy</h2>
+    <div class="main">
+      <div class="row">
+        <div class="info">
+          <h2>Off</h2>
+          <h3>Longitude:</h3>
+          <h3>Latitude:</h3>
+        </div>
+        <div class="center btn">
+          <button class="rotate" id="toggleBtn"><i class="fa-solid fa-power-off fa-4x" id="toggleSwitch"></i></button>
+        </div>
+      </div>
+
+      <hr>
+
+      <div>
+        <h3><i class="fa-solid fa-globe"></i> Locations</h3>
+        <h3><i class="fa-solid fa-map"></i> Custom</h3>
+      </div>
+    </div>
 
     <script src="popup.js"></script>
   </body>
